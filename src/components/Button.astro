@@ -8,7 +8,7 @@ const projectDirs = await import.meta.glob("../../public/**/**/index.html");
 <a
   target="_blank"
   rel="noopener noreferrer"
-  title="Open a random project in a new tab"
+  title="Open a random project (new tab)"
   href={Object.keys(projectDirs)[
     Math.floor(Math.random() * Object.keys(projectDirs).length)
   ].replace("/public", "")}
