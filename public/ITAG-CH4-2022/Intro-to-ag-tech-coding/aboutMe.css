@@ -1,0 +1,55 @@
+
+.features > img{
+  max-height: 600px;
+  max-width: 300px;
+  margin: 30px;  
+  
+} 
+
+body {
+  background:rgba(0,0,0,0.6) url("Assests/holdingplant.jpg");
+  background-size:cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+
+.header {
+  font-family: "josefin sans";
+  
+}
+
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+        font-family: "josefin sans";
+         color: #a8e147;
+        
+        
+
+      }
+
+      h2 {
+        text-align: justify;
+        
+        font-family: "josefin sans";
+        font-size:40px;
+        font-weight: bold;
+        color:#a8e147 ;
+        
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 24px;
+        font-family: "Josefin sans";
+        color: #a8e147;
+        
+      }
+
+      
+
+
+      a {
+        color: white;
+      }

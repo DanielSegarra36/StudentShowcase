@@ -1,0 +1,79 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+
+const projectDirs = await import.meta.glob(
+  "../../../public/ITAG-CH5-2023/**/index.html",
+);
+// const indexPages = await Astro.glob("../ITAG-CH5-2023/**/index.html");
+---
+
+<MainLayout>
+  <!-- <ul>
+    <a href="#renderWindow" onclick="renderWindow('COHORT/STUDENT/index.html')">STUDENT</a>
+    <li><a href="/ITAG-CH5-2023/Bryand-Case-Study">Bryand</a></li>
+    <li><a href="/ITAG-CH5-2023/David-Case-Study">David</a></li>
+    <li><a href="/ITAG-CH5-2023/Ohanie-Final-Project">Ohanie</a></li>
+  </ul> -->
+  <ul>
+    {
+      Object.keys(projectDirs).map((dir) => (
+        <li>
+          <a class="student-project" href="#renderWindow" data-url={dir}>
+            {
+              /*
+                format: '../../../public/Cohort/Student-Project/index.html',
+                extract: 'Student-Project',
+                swap: dashes for spaces (e.g. 'Student Project')
+              */
+              dir.split("/")[5].replace(/-/g, " ")
+            }
+          </a>
+          <a
+            class="inline-block"
+            href=`${dir.split("/")[5]}/index.html`
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Open in new tab"
+          >
+            {/* open in new tab icon */}
+            <img src="https://img.icons8.com/?size=24&id=14933&format=png" alt="Open in new tab" />
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <iframe class="bg-slate-900"
+    id="renderWindow"
+    title="Project Preview"
+    style="width: 100%; height: 100vh; border: none;"></iframe>
+</MainLayout>
+
+<script>
+  document.querySelectorAll(".student-project").forEach((link) => {
+    link.addEventListener("click", function (event) {
+      // get data-url from clicked link
+      const path = this.getAttribute("data-url");
+      console.log(path);
+      // set iframe src to data-url
+      renderWindow.src = `${path.split("/")[5]}/index.html`;
+    });
+  });
+
+  // const renderWindow = document.getElementById("renderWindow");
+  // const links = document.querySelectorAll("a");
+
+  // links.forEach((link) => {
+  //   link.addEventListener("click", function (event) {
+  //     event.preventDefault();
+  //     const path = this.getAttribute("href");
+  //     renderWindow.src = `${path}/index.html`;
+  //     window.history.pushState(null, null, path);
+  //   });
+  // });
+
+  // window.addEventListener("popstate", () => {
+  //   const path = window.location.pathname;
+  //   renderWindow.src = `${path}/index.html`;
+  // });
+</script>

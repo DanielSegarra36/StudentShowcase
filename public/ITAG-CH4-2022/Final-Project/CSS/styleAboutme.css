@@ -1,0 +1,64 @@
+
+body {
+    background-color: #4C3A51;
+  color: white;
+
+}
+container{
+  flex-direction: row;
+}
+.nav-contact {
+  max-height: 25px;
+  
+}
+
+img {
+  filter: grayscale(100%);
+
+}
+.MyImageMyName{
+  	position:relative;  	
+}
+.MyImageMyName img{
+	position:relative;
+  	z-index:1;
+   -webkit-clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+  clip-path: polygon(0% 0%,
+                   100% 0%,
+                   0% 140%,
+                    0% 50%);
+  object-fit: contain;
+  position: right;
+}
+.overlay p{ 
+    text-align: center;
+    margin-top: 35%;
+}
+.overlay{
+	position: absolute;
+    z-index: 2;
+    top: 0;
+    opacity: 0;
+    color: black;
+    transition: .5s ease;
+  height: 532.5px !important;
+  width: 500px !important;
+    background-color: #fff;
+  -webkit-clip-path: polygon(0px 0, 0 100px, 100px 80px, 100px 0);
+  clip-path: polygon(0% 0%,
+                   100% 0%,
+                   0% 140%,
+                    0% 50%);
+  
+}
+.MyImageMyName:hover .overlay{
+	opacity:0.8;
+}
+.footer {
+  background-color: #B25068;
+  padding-top: 80px;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+}

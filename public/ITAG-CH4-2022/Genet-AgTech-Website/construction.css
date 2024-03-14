@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  background-color: #0f715a;
+  
+}
+
+.nav a {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #fbf642;
+}
+
+.nav a:hover {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #f76c26;
+}
+
+.nav a:focus {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #fbf642;
+}
+
+.dropdown-menu {
+  background-color: #0f715a !important;
+}
+
+.text {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+h1 {
+  font-family: "Taviraj", serif;
+  font-size: 80px !important;
+  color: #0f715a;
+}
+
+p {
+  font-family: "Lato", serif;
+  font-size: 24px;
+  color: #000;
+}

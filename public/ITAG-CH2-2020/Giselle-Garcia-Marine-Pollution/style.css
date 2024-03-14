@@ -1,0 +1,49 @@
+h1 {
+  text-decoration: underline;
+}
+img {float: right
+px: 110}
+<nav class= "navbar">
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+body {
+  font-size: 100%;
+}
+
+h1 { font-family: 'Roboto Slab', serif;
+  font-size: 3.5em; 
+}
+
+h2 { font-family: 'Lobster', cursive;
+  font-size: 2em;
+}
+
+p { font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+}
+ol{
+  font-size: 1.5em;}
+   img scr="("https://i0.wp.com/www.mychesco.com/wp-content/uploads/2019/12/Water-utility.jpg?resize=735%2C400&ssl=1");" :hover {
+  opacity: 0.5;
+}
+

@@ -1,0 +1,74 @@
+body 
+
+{
+  background-color: thistle;
+}
+
+p.content{
+  margin:2rem auto;
+  width:350px;
+/*   https://clamp.font-size.app/ */
+/*   font-size: clamp(1rem, 0.9107rem + 0.2857vw, 1.125rem); */
+  font-family:Londrina;
+}
+
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden,
+  background-color: darkkhaki;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding-top: 100px; 
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 120px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+
+h1{
+  color:seagreen;
+  Font:'Londrina';
+  text-align:center;
+  
+  
+}
+
+h2.content-subheading{
+  text-align:center;
+  font-size:clamp(1rem, -1.5rem + 8vw, 3rem);
+  color: brown;
+  font-family: 'Londrina Shadow';
+}
+
+
+
+
+div {border-bottom-color: darkkhaki;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+

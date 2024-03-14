@@ -1,0 +1,533 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+body {
+  background-image: linear-gradient(to top, #000000 0%, #000000 100%);
+  color:            #fff;
+  width:            70%;
+  margin:           30px auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.header {
+  font-family: 'Press Start 2P', cursive;
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+ul {
+  background: #ffffff;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+  display: flex;
+  text-align: left;
+}
+
+ul:hover {
+  background:  #ffffff;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+  display: flex;
+  text-align: left;
+}
+
+li {
+	color: #000000;
+  background: #ffffff;
+	display: inline-block;
+	float: left;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+ color: inherit;
+}
+
+li:hover {
+  color:  #000000;
+	background: #00ff04;
+	cursor: pointer;
+}
+
+li a:hover {
+	background: #00ff04;
+}
+
+ul li ul {
+	background: #ffffff;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+	clear: both;
+  width: 100%;
+}
+ 
+        h1 {
+            font-family: 'Press Start 2P', cursive;
+            border: 8px solid #ffffff;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 40px;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+      h2 {
+            font-family: 'Press Start 2P', cursive;
+            border: 8px solid #ffffff;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 28px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+
+      img {
+      border-radius: 25px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      }
+
+      h2 {
+        text-align: left;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 24px;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+.css-typing p {
+  border-right: 5px solid orange;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.css-typing p:nth-child(1) {
+  width: 11em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: .75s;
+  animation-delay: .75s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+      button {
+        background:     #ffffff;
+        border:         none;
+        font-size:      42px;
+        font-family: 'Roboto Mono', monospace;
+        border-radius:  30px;
+        text-transform: uppercase;
+        color:          #ffb8f5;
+        display:        block;
+        padding:        10px 20px;
+        transition:     opacity 50ms ease;
+        cursor:         pointer;
+        opacity:        1;
+        margin:         30px auto;
+      }
+
+       button:hover {
+       background-color: #ffb8f5;
+       color: white;
+       cursor: url("https://downloads.totallyfreecursors.com/cursor_files/guitarpink2.cur"), url("https://downloads.totallyfreecursors.com/thumbnails/guitar-pink2.gif"), auto;
+       }
+
+      a {
+        color: #fff;
+      }
+
+      a.SheCodes:hover {
+        color: hotpink;
+        cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='39' height='47' viewport='0 0 100 100' style='fill:black;font-size:23px;'><text y='50%'>💁‍♀️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+      }
+
+      a.PowrPlnt:hover {
+        color: #00ff04;
+        cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='39' height='47' viewport='0 0 100 100' style='fill:black;font-size:23px;'><text y='50%'>💻</text></svg>") 16 0,auto; /*!emojicursor.app*/
+      }
+
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-60%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+  @keyframes tools-slide {
+    from {
+      transform: translateX(-110%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 8px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+        div {
+            margin: 0px auto;
+            display: block;
+        }
+
+
+        /* 
+color code starts here
+ */
+
+        body {
+            animation: colorchange 9s;
+            /* animation-name followed by duration in seconds*/
+            /* you could also use milliseconds (ms) or something like 2.5s */
+            -webkit-animation: colorchange 10s;
+            /* Chrome and Safari */
+        }
+
+        @keyframes colorchange {
+            0% {
+                background: #f50049;
+            }
+
+            25% {
+                background: #e18fff;
+            }
+
+            50% {
+                background: #42b7ff;
+            }
+
+            75% {
+                background: rgb(0, 199, 196);
+            }
+
+            100% {
+                background: #000000;
+            }
+        }
+
+        @-webkit-keyframes colorchange
+
+        /* Safari and Chrome - necessary duplicate */
+            {
+            0% {
+                background: #f78aff;
+            }
+
+            25% {
+                background: #e08aff;
+            }
+
+            50% {
+                background: #e68aff;
+            }
+
+            75% {
+                background: rgb(208, 114, 243);
+            }
+
+            100% {
+                background: #e08aff;
+            }
+        }
+
+/* header animation*/
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-60%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+@media screen and (max-width: 600px) {
+       body {
+       background-image: linear-gradient(to top, #000000 0%, #000000 100%);
+       color:            #fff;
+       width:            85%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+  
+        p {
+        line-height: 1.5;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+      button {
+        background:     #ffffff;
+        border:         none;
+        font-size:      30px;
+        font-family: 'Roboto Mono', monospace;
+        border-radius:  30px;
+        text-transform: uppercase;
+        color:          #ffb8f5;
+        display:        block;
+        padding:        10px 10px;
+        transition:     opacity 50ms ease;
+        cursor:         pointer;
+        opacity:        1;
+        margin:         20px auto;
+      }
+  
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 5px }
+  
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+
+       body {
+       background-image: linear-gradient(to top, #000000 0%, #000000 100%);
+       color:            #ffffff;
+       width:            100%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+
+         h1 {
+            font-family: 'Press Start 2P', cursive;
+            border: 9px solid #ffffff;
+            padding: 7px;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 1.6em;
+            margin:           30px;
+            letter-spacing: .1px;
+            font-size: 30px;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+        h2 {
+            font-family: 'Press Start 2P', cursive;
+            border: 6px solid #ffffff;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            margin:           30px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+      h3 {
+            font-family: 'Press Start 2P', cursive;
+            border: 6px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            margin:           30px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+          p {
+        font-family: 'Roboto Mono', monospace;
+        line-height: 1.5;
+        margin:           30px;
+        font-size: 15px;
+        text-align: left;
+      }
+
+      .css-typing p {
+            border-right: 5px solid orange;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 14px;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+ }
+}
+
+

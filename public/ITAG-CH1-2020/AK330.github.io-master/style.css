@@ -1,0 +1,71 @@
+body {
+	text-align: center ;
+	background-image: url("https://www.conserve-energy-future.com/wp-content/uploads/2013/11/air-pollution-smoke-emission.jpg");
+	margin: 0;
+	}
+	
+	p {
+		padding: 0 1rem;
+	}
+	
+	iframe {
+		display: block;
+		margin: 2em auto;
+	}
+	
+	.navbar {
+		display: flex;
+		position: relative;
+		position: sticky;
+		top: 0;
+		left: 0;
+		background-color: orange;
+		justify-content: space-between;
+	}
+	
+	ul { 
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		list-style: none;
+	}
+	
+	li { 
+		margin: 0 1rem;
+	}
+	.dark-theme { 
+		background-color: black;
+		color: white;
+	}
+	
+	.hero { 
+		width: 40vw;
+	}
+	
+	a:visted { 
+		color: rgb(150,131,95);
+	}
+	
+	.logo {
+		margin: 6px;
+	height: 49px;
+	}
+	
+	
+	.resize {
+		width: 300px;
+	}
+	
+.dark-link:hover {
+	color: yellow;
+}
+p { 
+	background-color: rgb(252, 106, 235);
+	background-color: rgba(252, 106, 235, .4 );
+}
+.large-image {
+	width: 100vw;
+}
+* {
+	font-family: 'Alata', sans-serif;
+}

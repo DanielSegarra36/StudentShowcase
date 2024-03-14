@@ -1,0 +1,34 @@
+.float-right {
+  float: right;
+  margin-left:10px;
+}
+.page-heading{
+  font-family: 'Sancreek', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 33px;
+
+color:aqua;
+background-color:black;
+text-align: center;
+padding:20px;
+}
+.navbar{
+  background-color:black;
+}
+a {
+  color:aqua;
+}
+a:hover {
+  color: coral;
+}
+ul {
+  display:flex;
+  justify-content: space-between;
+  list-style: none; 
+}
+ p{
+
+font-family: 'Rufina', serif;
+ }

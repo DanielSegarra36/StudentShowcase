@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav{ 
+  padding: 0px 50px 0px 50px;
+  text-align:center;
+}
+  
+ul{
+  margin: 0;
+  padding: 0px 30px 0px 30px;
+  overflow: hidden;
+  background: #D9D9D9;
+}
+
+li{
+  display:inline;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+ background-color: white
+}
+
+.Hamburger{
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+ 
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.Hamburger .bar, .Hamburger::before, .Hamburger::after{
+  content:'';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.Hamburger.is-active::before{
+transform: rotate(-45deg) translate(-8px, 6px);
+  }
+
+.Hamburger.is-active .bar{
+opacity: 0;
+  }
+
+.Hamburger.is-active::after{
+transform: rotate(45deg) translate(-9px, -8px);
+  }
+
+.AboutPGContent{    
+   margin: 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+
+.About-Image{
+  padding: 0px 100px 0px 50px;
+}
+
+.two-PGContent{
+  border: 2px solid black;
+  width: 550px;
+  padding: 0px 50px 0px 50px;
+}
+
+.Heading1{
+  Text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+.Heading2{
+  Text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+
+.Job-history{
+  padding: 2px 25px 2px 35px;
+}
+
+.Blog-Hero{
+  
+}
+
+.Centered-Text{
+  Text-align:center;
+}

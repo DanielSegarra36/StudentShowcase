@@ -1,0 +1,35 @@
+.splash-page {
+  height:100vh;
+  display: flex;
+}
+
+.splash-image {
+  height: 100vh;
+  width: 50vw;
+  background-image: url("Potatoes 3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.splash-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50vw;
+    font-size: 22px;
+}
+.big-text {
+    text-align: center;
+    font-size: 190px;
+}
+    nav>ul{
+    display:flex;
+    justify-content: space-between;
+    }
+
+    nav>ul>li{
+    list-style-type: none;
+    }
+body {
+  background: green;
+}

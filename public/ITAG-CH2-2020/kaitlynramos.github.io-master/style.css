@@ -1,0 +1,42 @@
+a {
+      color: white;
+    }
+    h1 {
+      font-size: 50px;
+      text-align: center;
+      color:aliceblue;
+    }
+    img {
+      border: 3px solid white;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+    }
+    ul {
+      padding: 10px;
+      background: black;
+      text-align: center;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin:0 auto;
+    }
+    header {
+      background-image: url("pexels-francesco-ungaro-396547.jpg")
+    
+      
+        
+    }
+    body {
+      background-color: lightblue;
+    }

@@ -1,0 +1,481 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+        background-image: linear-gradient(to top, #fac400 0%, #fac400 100%);
+        color:            #000000;
+        width:            70%;
+        margin:           20px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+
+.header {
+  font-family: 'Press Start 2P', 
+  cursive;
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+ul {
+  background: #fac400;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+  display: flex;
+  text-align: left;
+}
+
+li {
+	color: #000000;
+  background: #fac400;
+	display: inline-block;
+	float: left;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: #000000;
+}
+
+li:hover {
+	background: #faab00;
+	cursor: pointer;
+}
+
+ul li ul {
+	background: #fac400;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+	clear: both;
+  width: 100%;
+}
+        h1 {
+            font-family: 'Press Start 2P', cursive;
+            border: 8px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 28px;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-60%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+  @keyframes tools-slide {
+    from {
+      transform: translateX(-110%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+      h2 {
+         font-family: 'Press Start 2P', cursive;
+            border: 8px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 28px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 24px;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+.ToolsTable {
+  background-color: #fac400;
+  color: black;
+  border: 6px solid #000000;
+  padding: 7px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 7px;
+  margin: 0 auto;
+}
+
+.collapsible {
+  background-color: #fac400;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.active, .collapsible:hover {
+  background: #faab00;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fec90b;
+}
+
+table.ToolsDescription {
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+      a {
+        color: #000000;
+      }
+
+
+   body {
+            background-color: rgb(0, 0, 0);
+        }
+
+      img {
+      border-radius: 25px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      }
+
+        .imgbox {
+            display: grid;
+            height: 100%;
+            border-radius: 25px;
+        }
+
+
+}
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 8px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+}
+
+        div {
+            margin: 0px auto;
+            display: block;
+        }
+
+.ToolsTable {
+  background-color: #fac400;
+  color: black;
+  border: 8px solid #000000;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.collapsible {
+  background-color: #fac400;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.active, .collapsible:hover {
+  background: #faab00;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fec90b;
+}
+
+.ToolsDescription {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+       body {
+       background-image: linear-gradient(to top, #fac400 0%, #fac400 100%);
+       color:            #000000;
+       width:            85%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+  
+        p {
+        line-height: 1.5;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+        .ToolsDescription {
+        font-size: 15px;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 5px }
+
+            h1 {
+            font-family: 'Press Start 2P', cursive;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            border: 8px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+  .ToolsTable {
+  background-color: #fac400;
+  color: black;
+  border: 8px solid #000000;
+  padding: 3px;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+
+       body {
+       background-image: linear-gradient(to top, #fac400 0%, #fac400 100%);
+       color:            #000000;
+       width:            100%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+
+.ToolsTable {
+  background-color: #fac400;
+  color: black;
+            border: 6px solid #000000;
+            padding: 7px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+  width: 100%;
+  padding: 7px;
+  margin: auto;
+}
+
+.collapsible {
+  background-color: #fac400;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.active, .collapsible:hover {
+  background: #faab00;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fec90b;
+}
+
+table.ToolsDescription {
+  font-size: 15px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+  /* header animation*/
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-60%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+  @keyframes tools-slide {
+    from {
+      transform: translateX(-110%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+
+         h1 {
+            font-family: 'Press Start 2P', cursive;
+            border: 8px solid #000000;
+            padding: 7px;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 1.6em;
+            margin:           30px;
+            letter-spacing: .1px;
+            font-size: 23px;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+        h2 {
+            font-family: 'Press Start 2P', cursive;
+            border: 6px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            margin:           30px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+      h3 {
+            font-family: 'Press Start 2P', cursive;
+            border: 6px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            margin:           30px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+          p {
+        line-height: 1.5;
+        margin:           30px;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+  
+      .css-typing p {
+            border-right: .15em solid #000000;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            padding: 0;
+            white-space: nowrap;
+            overflow: hidden;
+  }
+
+)

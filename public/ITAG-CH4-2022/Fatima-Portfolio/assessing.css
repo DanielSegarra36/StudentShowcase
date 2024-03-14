@@ -1,0 +1,240 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #A2D2FF;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #A2D2FF;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-left: 1px;
+  margin-right: auto;
+  text-align: center;
+	width: 270px;
+}
+
+.logo {
+  padding-top: 40px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  border-radius: 25px;
+  
+}
+
+.pixel {
+  margin: 0 auto;
+  font-size: 25px;
+  color: white;
+  height: auto;
+  font-family: 'VT323';
+  
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  
+  cursor: pointer;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pixel a:hover{
+  color: #FF865E;
+}
+
+.pixel a:active {
+  color: #FF865E;
+  top: 2px;
+}
+
+.pixel {
+  width: max-content;
+  line-height: 0;
+  
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+  
+  border-style: solid;
+  border-width: 20px;
+  -moz-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  -webkit-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  -o-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+}
+
+.pixel a {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: auto;
+  text-align: center;
+  margin: -20px -20px;
+  line-height: 20px;
+  padding: 10px 20px;
+  text-decoration: none;  
+  color: white;
+  
+	background: #000000;
+	background:
+		linear-gradient(135deg, transparent 10px, #000000 0) top left,
+		linear-gradient(225deg, transparent 10px, #000000 0) top right,
+		linear-gradient(315deg, transparent 10px, #000000 0) bottom right,
+		linear-gradient(45deg,  transparent 10px, #000000 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-image:
+		radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
+}
+
+
+main {
+  background-color: white;
+  flex-grow: 1;
+  font-family: 'Albert Sans', sans-serif;
+  margin-left: 295px;
+  display: flex;
+  flex-direction: column;
+	height: 100%;
+	box-shadow: -2px 10px 12px 9px grey;
+}
+
+.techno {
+  display: flex;
+  flex-direction: column;
+}
+
+h2, h3, h4 {
+  align-items: center;
+  text-align: center; 
+}
+
+li a{
+  color: white;
+  font-family: 'VT323';
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.sub_text a:hover {
+  color: #FF865E;
+}
+
+.sub_text a:active{
+  color: #FF865E;
+  top: 2px;
+}
+
+.weather {
+	margin-top: 10%;
+	align-items: center;
+}
+
+.weather h3 {
+	font-family: 'VT323';
+	letter-spacing: 1.5px;
+}
+
+.location h2 {
+	font-weight: 300;	
+	font-family: 'VT323';
+	font-size: 30px;
+	letter-spacing: 1.5px;
+}
+
+.weather-box {
+	width: 190px;
+	height: 30px;
+/* 	border: 2px solid white;
+	border-radius: 20px 20px 20px 20px; */
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-temp {
+ font-size: 50px;
+  font-family: "VT323";
+  margin: 20px;
+}
+
+.needs-assessment h1 {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.needs-assessment p {
+	font-size: 25px;
+}
+
+.space {
+	display: flex;
+	flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.thoughts {
+	line-height: 32px;
+}
+
+.thoughts p {
+	font-weight: 400;
+}
+
+.thoughts p em {
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

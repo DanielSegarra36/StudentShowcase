@@ -1,0 +1,80 @@
+html,
+  
+nav {
+  background-color: #d96375;
+}
+
+body {
+    background-color: #4C3A51;
+
+}
+
+.nav-contact {
+  background-color: pink;
+  max-height: 25px;
+  
+}
+h1 {
+  
+}
+table, th, tr {
+   border:1px solid black;
+  width: 500px;
+}
+img {
+  position: relative;
+  
+}
+.footer {
+  background-color: #B25068;
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 800px) {
+  img {
+    max-width: 400px
+  }
+  table, th, tr {
+    width: 400px;
+  }
+  }
+.accordion {
+  background-color: #774360;
+  color: #E7AB79;
+  cursor: pointer;
+  padding: 18px;
+  width: 600px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #E7AB79;
+  display: none;
+  overflow: hidden;
+  width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .accordion {
+  background-color: #774360;
+  color: #E7AB79;
+  cursor: pointer;
+  padding: 18px;
+  width: 400px;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+}

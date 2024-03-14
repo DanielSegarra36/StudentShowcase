@@ -1,0 +1,43 @@
+
+.imig {
+ color:bisque;
+font-family: Arial Narrow;
+text-decoration-line: underline;
+
+}
+.animate {
+  animation: animation 3s infinite ease-in;
+
+}
+@keyframes animation {
+  0% {background-color: cornflowerblue}
+  25% {background-color: skyblue }
+  50% {background-color: cyan }
+  75% {background-color:  deepskyblue}
+  100% {background-color: cornflowerblue}
+}
+.ice {
+  color:bisque;
+font-family: Arial Narrow;
+text-decoration-line: underline;
+
+}
+.knr{
+  color:bisque;
+font-family: Arial Narrow;
+text-decoration-line: underline;
+
+}
+.header {
+background-image: url("https://socialinnovationsjournal.org/images/immigration-banner-image.png");
+text-align: center;
+background-size: cover;
+color:white;
+    
+}
+.text {
+  font-family: Arial Narrow;
+}
+.button {
+  b
+}

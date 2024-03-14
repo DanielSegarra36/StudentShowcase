@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What's Growin' On?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      html {
+      scroll-behavior: smooth;
+    }
+    h1,h2,h3,h4,h5,h6 {font-family: "Abril+Fatface"}
+    body {font-family: "Source Sans Pro"}
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body class="w3-light-white w3-margin">
+
+<!-- Navigation bar with links -->
+<div class="w3-bar w3-white w3-text-black">
+  <h2 class="w3-left w3-tag w3-pale-red w3-round">What's Growin' On?</h2>
+  <a href="index.html#about" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">ABOUT</a>
+  <a href="index.html#inProgress" class="w3-hide-small w3-bar-item w3-dropdown-hover w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">IN PROGRESS</a>
+  <a href="index.html#startingOut" class="w3-hide-small w3-bar-item w3-dropdown-hover w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">STARTING OUT</a>
+  <a href="https://athomefarm.demiami34.repl.co" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">HOME</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-medium w3-hide-large" style="margin-top:10px;" onclick="myFunction()">&#9776;</a>
+</div>
+
+  
+<div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-small">
+  <a href="https://athomefarm.demiami34.repl.co" class="w3-bar-item w3-button">HOME</a>
+  <div class="w3-dropdown-hover">
+      <button class="w3-button"><a href=index.html#startingOut>STARTING OUT</a></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="designplan.html" class="w3-bar-item w3-button">Farm Design & Planning</a>
+        <a href="needsAssessment.html" class="w3-bar-item w3-button">Needs Assessment</a>
+        <a href="materials.html" class="w3-bar-item w3-button">Materials List</a>
+      </div>
+    </div>
+<div class="w3-dropdown-hover">
+      <button class="w3-button"><a href=index.html#inProgress>IN PROGRESS</a></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="unboxing.html" class="w3-bar-item w3-button">Unboxing</a>
+        <a href="buildingOut.html" class="w3-bar-item w3-button">Building Out my System</a>
+        <a href="growing.html" class="w3-bar-item w3-button">What's Growing?</a>
+      </div>
+    </div>
+  <a href="index.html#about" class="w3-bar-item w3-button">ABOUT</a>
+</div>
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" style="padding-bottom:32px;" id="Home">
+    <img class="w3-image hero-img" src="opener.png" alt="Photo by Jamie Street" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-black">HOME GROWN.</h1>
+      <h1 class="w3-jumbo w3-text-black w3-hide-small"><b>DABBLING IN HYDROPONICS</b></h1>
+    </div>
+  </header>
+
+  <!-- Grid / Process section -->
+  <div class="w3-row-padding" id="Process">
+    <div class="w3-center w3-padding-32">
+      <h2 class="w3-wide w3-center">UNBOXING</h2>
+         <!-- <p class="w3-opacity w3-center"><i>Process</i></p><br> -->
+          <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="vivosun.jpg" alt="Sandwich" style="width:100%">
+      <h3>VIVOSUN NFT System</h3>
+      <p>I chose this NFT system from VIVOSUN because I loved the simplicity and straightforwardness of it. When I was trying to DIY it using this tutorial, costs started adding up and I became overwhelmed at having to put it all together. I work full time and I wasn’t confident in the time I would have to build it on my own. It came with 4 pipes, each with 9 holes, the net cups, water pump and tubing, and some sponge to begin seed starting with. It’s available on Amazon, but through VIVOSUN’s website I was able to use a discount code to get 15% off the system. The hooks on my materials list are used so that I could mount it onto the wall.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Rockwool.jpg" alt="Steak" style="width:100%">
+      <h3>Rockwool</h3>
+      <p>The rockwool will be what I use to start my seedlings. I liked the rockwool I chose because it was a large sheet of 200. My NFT system can hold 36 plants at a time, plus my 2 DWC cups, means I can get approximately 5 full harvests from just this one purchase. Though they are not reusable, </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="clayPebbles.jpg" alt="Clay Pebbles" style="width:100%">
+      <h3>Clay Pebbles</h3>
+      <p>I chose to use clay pebbles for my drainage material because they are reusable. Because of this I also was able to save some money by ordering a smaller bag.</p>
+   
+    </div>
+    <div class="w3-quarter">
+      <img src="airPump.jpg" alt="Air Pump" style="width:100%">
+      <h3>Air Pumps</h3>
+      <p>Since I would have three reservoirs that would need air pumps and air stones, I chose a model that came with 4 ports. This way, I can use just one air pump and I have the option to expand by adding the 4th hose for another system should I ever choose to add one.</p>
+    </div>
+  </div>
+      
+          <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="lighting.jpg" alt="NFT Lighting" style="width:100%">
+      <h3>Lighting</h3>
+      <p>I bought two sets of lights, both LED because they're energy efficient. The first was a grow light that covered a 2x2 area, which was perfect for my tomatoes and broccoli. I will have to figure out how to hang it above them. The second were LED light strips for the NFT system that I would ziptie to each row of the system.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="netcups.jpg" alt="Net cup in mason jar" style="width:100%">
+      <h3>Net cups</h3>
+      <p>Since the NFT System came with it's own net cups I just needed net cups for the DWC buckets. Even though they're reusable, I went for a 30-pack, as there wasn't a significant price difference, I would have backups just in case. Spinach was one of the crops I wanted to grow but it's pH and EC needs don't align with the rest of the plants in the system so I might want to make some mason jar style kratky method farm systems to have thrm isolated from my NFT system. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="nutrientBags.jpg" alt="3 bags of dry nutrients" style="width:100%">
+      <h3>Dry nutrients</h3>
+      <p> Dry nutrients tend to be a bit trickier for someone just starting out, but I decided to start there since they're cost effective, and it would be fun to learn by trial and error.</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="seedStart.png" alt="Pasta and Wine" style="width:100%">
+      <h3>Seed Starting</h3>
+      <p>This hasn't arrived yet but I can't wait to test these out! Each dome has a light and a humidity adjuster.</p>
+    </div>
+  </div>
+
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="seeds.jpg" alt="Assortment of seed packs" style="width:100%">
+      <h3>Seeds</h3>
+      <p>Found a seed pack that included most of the herbs I wanted to grow, so it became simpler to order than individually. The ones I'm on the fence about right now is dill and lavender-- I still have to research if they would work well in my NFT system or if I should grow them isolated.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="GFCI.jpg" alt="Single GFCI adapter" style="width:100%">
+      <h3>GFCI adapters</h3>
+      <p>There are two outlets in my grow area that needed protection, but only one adapter needed to have multiple outlets</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="holeSaw.jpg" alt="Hole saw kit" style="width:100%">
+      <h3>Hole saw</h3>
+      <p>So I went to test these out but unfortunately the bit was too big for my drill so I will have to find another way soon. It's okay since I don't have my seedlings ready to transfer yet.</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="ECpH.jpg" alt="EC & pH Meters" style="width:100%">
+      <h3>pH & EC meters</h3>
+      <p>Though I am setting up a sensor to report the pH, electrical conductivity (EC), humidity, and temperature of my system, in case it ever failed, or I needed to test a new solution quick, I wanted to have a meter on hand.</p>
+    </div>
+  </div>
+
+    </div>
+
+
+  <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+  <footer class="w3-container w3-pale-red w3-center w3-margin-top">
+   
+    <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+    <a class="w3-button w3-round-xxlarge w3-small w3-white w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> <!-- End footer -->
+  </footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

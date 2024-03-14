@@ -1,0 +1,88 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+}
+.hey4 {
+  color: white;
+}
+html {
+  background-color: lavender;
+}
+body, html {
+  height: 40%;
+}
+.bg-img {
+  background-image: url("https://i.insider.com/5ed50cb15af6cc0640249e2f?width=1100&format=jpeg&auto=webp");
+  min-height: 550px;
+  background-origin: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.topnav {
+  background-color: darkslateblue;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-right: 1px solid;
+}
+.topnav a:last-child {
+  border-right: none;
+}
+.topnav a:hover {
+  background-color: rgb(53, 55, 161);
+  color: black;
+}
+.topnav a.active {
+  color: white;
+}
+.topnav a.active:hover {
+  color: black;
+}
+.hey {
+  font-size: 21px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  line-height: 1.5;
+  word-spacing: 7px;
+}
+.hey2 {
+  font-size: 21px; 
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+ word-spacing: 7px;
+}
+.hey3 {
+font-size: 21px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+line-height: 1.5;
+word-spacing: 7px;
+list-style-position: inside;
+}
+h2 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.vid {
+  font-size: 25px;
+  text-align: center;
+}
+iframe {
+  margin: o,auto;
+  padding: 52px;
+  display: inline;
+}

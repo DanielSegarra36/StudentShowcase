@@ -1,0 +1,94 @@
+
+
+body {
+    background-color: #4C3A51;
+  color: white;
+}
+
+.nav-contact {
+  max-height: 25px;
+  
+}
+
+h5 {
+  color: #E7AB79;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 50%;
+  background: rgba(178, 80, 104,0.6) !important;
+  display: flex;
+  align-items: center;
+}
+
+
+table {
+  position: relative;
+  padding: 100px;
+  
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+  background-color: #774360;
+  color: #E7AB79;
+  cursor: pointer;
+  padding: 18px;
+  width: 600px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(119,67,96,0.5);
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #E7AB79;
+  max-height: 0;
+  overflow: hidden;
+  width: 600px;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+
+.footer {
+  background-color: #B25068;
+  padding-top: 80px;
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+h4 {
+  font-family: 'Ubuntu', sans-serif;
+}
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+th {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+.api {
+  top: 100px !important;
+}

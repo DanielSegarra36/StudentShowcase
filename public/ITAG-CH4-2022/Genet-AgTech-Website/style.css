@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  background-color: #0f715a;
+  
+}
+
+.nav a {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #fbf642;
+}
+
+.nav a:hover {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #f76c26;
+}
+
+.nav a:focus {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #fbf642;
+}
+
+.dropdown-menu {
+  background-color: #0f715a !important;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.6;
+}
+
+.carousel-caption {
+  bottom: 180px;
+  padding-left: 100px;
+  padding-right: 100px;
+  
+}
+
+
+
+.carousel-caption h1{
+  font-size: 80px;
+  font-weight: 600;
+  font-family: "Taviraj";
+  color: #fbf642;
+  
+}
+
+.carousel-caption p{
+  font-size:18px;
+  font-weight: 700;
+  font-family: "Lato";
+  color: #fff;
+}

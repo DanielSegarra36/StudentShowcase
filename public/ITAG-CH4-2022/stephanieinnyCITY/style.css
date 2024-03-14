@@ -1,0 +1,171 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+p{
+  background-color: #ebdde6;
+  color:black;
+  padding: 1rem;
+} 
+
+nav,footer{
+  background:#ebdde6;
+}
+
+body {
+  color: #F5F5DC;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+div {
+  border: 15rem beige;
+  border-radius: 10rem;
+  padding: 2rem;
+  width: 75%;
+  margin: 2rem auto; 
+  background: rgba(0,128,0,0.6)
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color:black;
+  margin: 2rem auto;
+  font-size: 2rem;
+  border-radius: 15%;
+  /*color: #F5F5DC;*/
+}
+
+p  {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  font-size: 2rem;
+}
+
+a   {
+  text-decoration: none;
+  color: #008CBA;
+}
+
+.container {
+  display: inline;
+  cursor: pointer;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style the header */
+.header {
+  background-color: pink;
+  text-align: center;
+  margin: 2 rem auto;
+  border-radius: 10%;
+}
+
+/* style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+}
+
+/* style the topnav link */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+* {
+  font-family: Lucida console;
+}
+
+body {
+  color: #F5F5DC;
+}
+
+body {
+
+  background-color: pink;
+}
+
+* {
+  font-family: Lucida console;
+}
+
+body {
+  color: #F5F5DC;
+}
+
+body {
+
+  background-color: lightblue;
+}
+
+body {
+    background-image: url("https://imgix.bustle.com/uploads/image/2021/4/6/1520b89c-3965-4fb2-b310-11e24c0b1b57-mushrooms.jpg?w=414&h=518&fit=crop&crop=focalpoint&auto=format%2Ccompress&fp-x=0.5092592592592593&fp-y=0.522962962962963");
+
+  }
+.header {
+    margin: 50 rem auto;  <!--50 replaced 3-->
+        
+  }
+
+.button {
+  background-color: #4CAF50; /* GREEN */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.wrapper img{
+  width:20%;
+  height:auto;
+  margin-left:0px;
+  margin-right:0px;
+}
+@media screen and (max-width:800px){
+  div,.wrapper img{
+    width:100%;
+  }
+}
+
+@media screen and (min-width:800px){
+  
+}
+
+h2{
+  background-color:pink; 
+  color:black; 
+  border-radius:30%;
+  text-align: center;
+}
+
+.content{
+  margin:2rem; auto;
+  padding:2rem;
+  border:solid 1px black;
+  border-radius:10px;
+  background-color:#ff6622;
+  width:50%;
+}
+
+img {
+  border-radius: 50%
+}

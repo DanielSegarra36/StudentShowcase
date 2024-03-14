@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.hero-img {
+  height: 170px !important;
+}
+  .blog-img{
+    height:400px !important;
+    padding-top: 50px;
+  }
+
+.front-pg{
+  height: 400px;
+}

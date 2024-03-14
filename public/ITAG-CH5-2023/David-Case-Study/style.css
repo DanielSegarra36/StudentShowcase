@@ -1,0 +1,62 @@
+/* we do not need html tags in CSS files */
+/* <style> */
+body {
+  background: black;
+  color: white;
+  font-style: italic;
+}
+
+p {
+  padding: 0 3rem;
+}
+
+h3 {
+  text-align: center;
+  padding-left: 17rem;
+}
+
+.splash-page {
+  height: 100vh;
+  display: flex;
+}
+
+.splash-image {
+  height: 100vh;
+  width: 50vw;
+  background-image: url(Habanero-Pepper.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+}
+
+.splash-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+  font-size: 20px;
+  color: orange;
+}
+
+.big-text {
+  text-align: center;
+  font-size: 35px;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+  /*! row-gap: 100px; */
+  /*! flex-direction: row; */
+  padding: 0;
+}
+
+nav>ul>li {
+  list-style-type: none;
+}
+
+button {
+  
+}
+/* </style> */

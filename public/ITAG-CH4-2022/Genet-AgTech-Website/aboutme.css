@@ -1,0 +1,101 @@
+/* Want to make the page look better on Mobile Device  */
+@media (min-height: 670px) {
+  html, body {
+    height:100%;
+  }
+}
+
+
+body {
+  margin: 0px;
+  background-image: url("soil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+
+}
+
+.image-opacity {
+  height: 100%;
+  background-color: rgba(0,0,0,.6);
+}
+
+}
+
+.nav{
+  background-color: #0f715a;
+  
+}
+
+.nav a {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #fbf642;
+}
+
+.nav a:hover {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #f76c26;
+}
+
+.nav a:focus {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #fbf642;
+}
+
+.dropdown-menu {
+  background-color: #0f715a !important;
+}
+
+.container > img {
+  border-radius: 50%;
+}
+
+.container {
+  padding-top: 150px;
+  display: flex;
+  
+}
+
+.container img {
+  height: 400px;
+  width: 580px;
+  margin-right: 50px;
+  
+}
+
+.container h1 {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 52px;
+  text-align: center;
+  color:#fbf642;
+  
+}
+
+.container h2 {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 52px;
+  text-align: center;
+  color:#fbf642;
+  
+}
+.container p {
+  font-family: 'Lato';
+  font-size: 20px;
+  text-align: justify;
+  text-indent: 20px;
+  color: #fff;
+
+}
+/* want to add rounded corners to picture  */
+
+
+
+}

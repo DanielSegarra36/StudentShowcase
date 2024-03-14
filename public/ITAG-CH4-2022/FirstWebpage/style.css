@@ -1,0 +1,466 @@
+/* GENERAL */
+.header {
+  height: 100px;
+  display: inline; 
+  text-align: center;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+/*   overflow: hidden; */
+  background-color: #0E45C4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  gap: 5px;
+}
+li a:hover {
+  background-color:#ADB7F0;
+}
+.logo{
+  height: 100px;
+}
+
+body {
+  background: #D25BF0;
+  font-family: futura;
+  font-size: 18px;
+}
+
+.footer {
+  background-color:#FFC6BF;
+  color: #0023DB;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  margin: 200px;
+  display: flex;
+}
+    
+/* HOME PAGE */
+.landingPage {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border: 10px solid #F5E6CE;
+  padding: 10px;
+  display: block;
+  
+}
+h1.introTitle {
+  color:#3BFFEC;
+  font-size: 70px;
+  text-align: center;
+}
+h2.introTitle {
+  color:#3BFFEC;
+  font-size: 63px;
+  text-align: center;
+  margin-top: -30px;
+}
+.h6 {
+  color: #F5E6CE;
+  text-align: center;
+}
+/* ABOUT */
+h1.aboutTitle {
+  color: #3BFFEC;
+  font-size: 55px;
+  text-align: center;
+}
+
+.aboutBorders {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}  
+.aboutImg {
+  width: 350px;
+  height: 375px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -2em;
+  border-radius: 50%;
+  border: 7px solid #F5E6CE;
+  padding: 10px;
+}
+/* About button */
+.gradient-button {
+    margin: auto;
+    font-family: "futura", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+.gradient-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.gradient-button02 {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)}
+.gradient-button-2:hover { background-position: right center; }
+}
+/* AG */
+
+.agBorder {
+/*   margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px; */
+  display: block;
+  width: 50%;
+  margin: 50px;
+/*   font-size: clamp(1rem, 0.6429rem + 1.1429vw, 1.5rem); */
+}
+
+@media screen and (max-width: 500px) {
+  .agBorder {
+    margin: 0px;
+  }
+}
+
+.agBorder > p:nth-of-type(2),
+.agBorder > p:nth-of-type(3),
+.agBorder > p:nth-of-type(4) {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 16px;
+}
+.agBorder > p:nth-of-type(1),
+.agBorder > p:nth-of-type(5),
+.agBorder > p:nth-of-type(6),
+.agBorder > p:nth-of-type(7),
+.agBorder > p:nth-of-type(8),
+.agBorder > p:nth-of-type(9),
+.agBorder > p:nth-of-type(10){
+  margin-left: 5%
+}
+
+.chinampas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+/*   flex-direction: row; */
+}
+
+.chinampas > img {
+  width: 20%;
+  border: 5px solid #F5E6CE;
+}
+.birds {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+/*   flex-direction: row; */
+}
+.birds > img {
+  width: 25%;
+  border: 5px solid #F5E6CE;
+}
+.urbanFarm > img {
+  width: 40%;
+  border: 5px solid #F5E6CE;
+}
+.urbanFarm  {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  gap: 10px;
+/*   flex-direction: row; */
+}
+.lotus {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+/*   flex-direction: row; */
+}
+.lotus > img {
+width: 50%;
+border: 5px solid #F5E6CE;
+}
+@media (max-width: 900px) {
+  .chinampas .birds .urbanFarm  {
+    flex-direction: column;
+  }
+  .chinampas .birds .urbanFarm > img {
+    width: 100%;
+    border: 5px solid #F5E6CE;
+  }
+}
+
+h1.agTitle {
+  color: #3BFFEC;
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: -20px;
+}
+h2.agTitle {
+  color: #F5E6CE;
+  font-size: 45px;
+  text-align: center;
+}
+.quote {
+  font-size: 18px;
+  display: block;
+  padding: 20px 10px;
+  border-radius: 25%;
+  border: 3px  #3BFFEC;
+  border-style: double ;
+  text-align: center;
+  margin: 3em 3em;
+}
+/* TECH */
+h1.techTitle {
+    text-align: center;
+    color: #3BFFEC;
+    font-size: 55px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  }
+.ioT {
+  margin: 3em;
+}
+  
+.ioT-img {
+  margin: 3em;
+    border: 5px solid #F5E6CE;
+    width: 55%;
+}
+
+  
+/* CONSTRUCTION */
+
+.Alejandro {
+    color: #F5E6CE;
+  font-size: 20px;
+  text-align: left;
+}
+/* table 1 */
+table.GeneratedTable {
+  width: 95%;
+  background-color: ;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #e8d3e8;
+  border-style: solid;
+  color: #000000;
+}
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #e8d3e8;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.GeneratedTable thead {
+  background-color: #83dce2;
+}
+.constructionImg {
+  width: 350px;
+  height: 370px;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-radius: 50%; 
+}
+/* buttons */
+.button01 {
+  appearance: none;
+  background-image: linear-gradient(90deg, #7b81ec, #3bd1d3);
+  margin: 1em 3em;
+    display: block;
+    -webkit-appearance: none;
+    border: 6px solid rgba(255, 255, 255, 0.45);
+    border-radius: 50px;
+    padding: 1em 3em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: padding-box;
+    position: relative;
+    color: #FFF;
+}
+
+.button01:hover {
+  background-color: #FFC229;
+  transition: transform 0.225s ease-in-out;
+  transform: scale(1.05);
+}
+
+.button01:active {
+  transform: scale(1.05);
+}
+.conMargin {
+  margin: 1em 3em;
+}
+@media (min-width: 768px) {
+  .button01 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+/* gallery */
+.conImgs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px
+  
+/*   flex-direction: row; */
+}
+.conImgs > img {
+  width: 22%;
+  border: 5px solid #F5E6CE;
+  
+}
+.tomato {
+  display: flex;
+  justify-content: center;
+/*   flex-direction: row; */
+}
+.tomato > img {
+  width: 85%;
+  border: 5px solid #F5E6CE;
+  
+}
+
+/* contact */
+html {
+  font: 300 100%/1.5 Ubuntu;
+  color: #000000;
+  overflow-x: hidden;
+}
+h2 {
+  margin: 1;
+  color: #3BFFEC;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+#contact-form {
+  max-width: 1208px;
+  max-width: 75.5rem;
+  margin: 0 auto;
+  font-family: futura;
+}
+#contact, label, input[name="submit"] {
+  position: relative;
+}
+label > span, input, textarea, button {
+  box-sizing: border-box;
+}
+label {
+  display: block;
+}
+label > span {
+  display: none;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font: 300 100%/1.2 Ubuntu, sans-serif;
+}
+input[type="text"], input[type="email"], textarea {
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
+}
+input.invalid, textarea.invalid {
+  border-color: #d5144d;
+}
+textarea {
+  height: 6em;
+}
+input[type="submit"], button {
+  background-image: linear-gradient(90deg, #b4feca, #3bd1d3);
+  color: #ffffff;
+}
+input[type="submit"]:hover, button:hover {
+  background-image: linear-gradient(90deg, #71dac0, #ffa8ef);
+}
+@media screen and (min-width: 30em) {
+  #contact-form h2 {
+    margin-left: 26.3736%;
+    font-size: 2em;
+    line-height: 1.5;
+  }
+  label > span {
+    vertical-align: top;
+    display: inline-block;
+    width: 26.3736%;
+    padding: 0.5em;
+    border: 1px solid transparent;
+    text-align: right;
+  }
+  input, textarea, button {
+    width: 73.6263%;
+    line-height: 1.5;
+  }
+  textarea {
+    height: 10em;
+  }
+  input[type="submit"], button {
+    margin-left: 26.3736%;
+  }
+}
+@media screen and (min-width: 48em) {
+  #contact-form {
+    text-align: justify;
+    line-height: 0;
+  }
+  #contact-form:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+  #contact-form h2 {
+    margin-left: 17.2661%;
+  }
+  #contact-form form, #contact-form aside {
+    vertical-align: top;
+    display: inline-block;
+    width: 65.4676%;
+    text-align: left;
+    line-height: 1.5;
+  }
+  #contact-form aside {
+    width: 30.9353%;
+  }
+}
+
+

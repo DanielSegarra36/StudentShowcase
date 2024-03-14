@@ -1,0 +1,166 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+	flex-direction: column;
+  margin: 0;
+	background-image: url("/Photos/12.JPG");
+	background-size: cover;
+}
+
+
+.nav-container {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+}
+
+.right {
+	display: flex;
+	gap: 25px;
+}
+
+/* TODO: fix nav bar in mobile device */
+@media (max-width: 520px) {
+	.right {
+		gap: 0;
+	}
+}
+
+.pixel {
+  margin: 0 auto;
+  font-size: 25px;
+  color: white;
+  height: max-content;
+  font-family: 'VT323';
+  
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  
+  cursor: pointer;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pixel a:hover{
+  color: #FF865E;
+}
+
+.pixel a:active {
+  color: #FF865E;
+  top: 2px;
+}
+
+.pixel {
+  width: max-content;
+  line-height: 0;
+  
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+  
+  border-style: solid;
+  border-width: 20px;
+  -moz-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  -webkit-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  -o-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+}
+
+.pixel a {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: auto;
+  text-align: center;
+  margin: -20px -20px;
+  line-height: 20px;
+  padding: 10px 20px;
+  text-decoration: none;  
+  color: white;
+  
+	background: #000000;
+	background:
+		linear-gradient(135deg, transparent 10px, #000000 0) top left,
+		linear-gradient(225deg, transparent 10px, #000000 0) top right,
+		linear-gradient(315deg, transparent 10px, #000000 0) bottom right,
+		linear-gradient(45deg,  transparent 10px, #000000 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-image:
+		radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
+}
+
+h2, h4 {
+  align-items: center;
+  text-align: center; 
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+li a{
+  color: white;
+  font-family: 'VT323';
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.sub_text a:hover {
+  color: #FF865E;
+}
+
+.sub_text a:active{
+  color: #FF865E;
+  top: 2px;
+}
+
+main{
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: row;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+	justify-content: space-around;
+	padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.intro .left-box {
+	flex: 0 0 50%;
+}
+
+.intro .right-box {
+	flex: 0 0 50%;
+	font-family: 'Albert Sans', sans-serif; 
+	margin-right: 50px;
+}
+
+.intro .about-me {
+	background: #f2f2f2;
+	border-radius: 10px;
+	margin: 30px;
+	padding: 40px 30px;
+}

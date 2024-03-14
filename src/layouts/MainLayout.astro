@@ -1,0 +1,35 @@
+---
+// Component Imports
+import Button from "../components/Button.astro";
+import Cohort from "../components/Cohort.astro";
+import ReturnBanner from "../components/ReturnBanner.astro";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/basics/astro-components/
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Celebrating Student Accomplishments</title>
+  </head>
+
+  <body>
+    <ReturnBanner />
+    <main class="">
+      <!-- portfolio to showcase my students final projects, as an
+    introductory web development instructor, over the last few years -->
+      <!-- student showcase -->
+      <!-- describe job role -->
+      <h1
+        class="text-heading mx-auto max-w-[750px] px-4 py-12 text-center text-3xl font-bold sm:text-6xl md:px-12"
+      >
+        <a href="/">Celebrating Student Accomplishments</a>
+      </h1>
+      <slot />
+    </main>
+  </body>
+</html>

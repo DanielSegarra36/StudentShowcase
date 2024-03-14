@@ -1,0 +1,69 @@
+
+.features > img{
+  max-height: 600px;
+  max-width: 300px;
+  margin: 30px;  
+  
+} 
+body {
+        background-image: linear-gradient(to top, #8ba878 25%, #fbe3d1 75%);
+        color:            ;
+        width:            70%;
+        margin:           20px auto;
+  
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  }
+.header {
+  font-family: "josefin sans";
+  
+}
+
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+        font-family: "josefin sans";
+         color: #63659c;
+        
+        
+
+      }
+
+      h2 {
+        text-align: center;
+        
+        font-family: "josefin sans";
+        font-size:30px;
+        font-weight: bold;
+        color: #63659c;
+        
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 24px;
+        font-family: "Josefin sans";
+      }
+
+      img {
+        margin: 0 auto;
+        display: block;
+        border-radius: 4px;
+      }
+
+      a {
+        color: brown;
+      }
+
+.carousel-item  {
+  height: 100vh;
+  min-height: 300px;
+  background:
+}
+
+ul{
+  font: "josefin sans";
+  font-size: 20px;
+  color: black
+}

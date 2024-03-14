@@ -1,0 +1,63 @@
+header, nav, nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  margin: 0px 10px;
+}
+
+nav {
+  justify-content: space-evenly;
+  margin-right: 1em;
+  flex-grow: 1;
+}
+
+#recent-products {
+  text-align: center
+}
+
+.card-container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.preview {
+  height: 200px;
+  width: 200px;
+}
+
+.card {
+  text-align: left;
+}
+
+.card:nth-child(1) > .preview {
+  background: #E3DBBF;
+}
+
+.card:nth-child(2) > .preview {
+  background: #CAA3CB;
+}
+
+.card:nth-child(3) > .preview {
+  background: #447D9C;
+}
+
+.card:nth-child(4) > .preview {
+  background: #ECDBD7;
+}
+
+#collections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-collections {
+  display: flex;
+  flex-direction: column;
+}

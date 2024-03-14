@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+#home {
+  background-image: url("assets/cuenca.jpeg");
+  width: 100%;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+#pagetwo {
+  background-color: #d6ccce;
+}
+
+header {
+  text-align: center;
+  font-family: script;
+  color: white;
+  font-size: 30px;
+  line-height: 30%;
+}
+
+main {
+  font-size: 24px;
+  padding-right: 30%;
+  background: rgba(255, 255, 255, 0.7)
+}
+
+.portfolio {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#me {
+  max-width: 30%;
+  height: auto;
+  border-radius: 5%;
+  margin-left: 110%;
+  margin-top: .96%;
+
+  display: block;
+}
+
+#project {
+  display: flex;
+
+}
+
+#pheader {
+  color: black;
+  text-align: center;
+  font-family: Optima, sans-serif;
+}
+
+.pparagraph {
+  font-family: Optima, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: Optima, sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  background-color: white;
+  overflow: hidden;
+  padding: 1m;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: purple;
+  font-family: monospace;
+  font-size: .55cm;
+  padding: .5cm;
+}
+
+li a:hover {
+  background-color: #cecaca;
+}
+
+nav {
+  text-align: center;
+}

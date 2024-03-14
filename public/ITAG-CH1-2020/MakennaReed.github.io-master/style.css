@@ -1,0 +1,54 @@
+		.btn {
+			border: none;
+			background-color: coral;
+			padding: 14px 28px;
+			font-size: 16px;
+			cursor: pointer;
+			display: inline-block;
+		}
+
+		/* Green */
+		.why {
+			color: green;
+		}
+		.why:hover {
+			background-color: #4CAF50;
+			color: white;
+		}
+
+		body {
+			background-color: #FF7F50;
+		}
+
+		/* Blue */
+		.info {
+			color: dodgerblue;
+		}
+
+		.info:hover {
+			background: #2196F3;
+			color: white;
+		}
+
+		/* Red */
+		.howToHelp {
+			color: red;
+		}
+
+		.howToHelp:hover {
+			background: #f44336;
+			color: white;
+		}
+
+		.intro.jpeg {
+			text-align: center;
+		}
+		
+		/* Purple */
+		.GoBack {
+			color: darkorchid;
+		}
+		.GoBack:hover {
+			background-color: 	#9932CC;
+			color: white;
+		}

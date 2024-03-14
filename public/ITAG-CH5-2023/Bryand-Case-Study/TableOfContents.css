@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background: cyan;
+  font-size: 20px;
+}
+
+h1 {
+  color: black;
+  
+}
+
+img {
+  border: 50px;
+  border-radius: 30px;
+}
+.splash-page {
+  height:100vh;
+  display: flex;
+}
+.splash-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    font-size 20px;
+}
+.big-text{
+    text-align: center;
+    font-size: 35px;
+}
+    nav>ul{
+    display:flex;
+    justify-content: space-evenly;
+    /*! row-gap:100px; */
+    /*! flex-direction: row; */
+    padding: 0;
+    }
+
+    nav>ul>li{
+    list-style-type: none;
+    }
+h1{
+  text-align: center;
+  color:gold
+  ;
+}

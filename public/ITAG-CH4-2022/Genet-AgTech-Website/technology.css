@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  background-color: #0f715a;
+  
+}
+
+.nav a {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #fbf642;
+}
+
+.nav a:hover {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #f76c26;
+}
+
+.nav a:focus {
+  font-family: "Taviraj", serif;
+  font-style: bolder;
+  font-size: 24px;
+  color: #fbf642;
+}
+
+.dropdown-menu {
+  background-color: #0f715a !important;
+}
+
+.text {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+h1 {
+  font-family: "Taviraj", serif;
+  font-size: 80px !important;
+  color: #0f715a;
+}
+
+p {
+  font-family: "Lato", serif;
+  font-size: 24px;
+  color: #000;
+}
+
+.card {
+  background:#0f715a !important;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+h2 {
+  font-family: "Taviraj", serif;
+  font-size: 40px !important;
+  color: #000;
+}
+
+h3 {
+  font-family: "Lato", serif;
+  font-size: 30px !important;
+  color: #000;
+}
+
+h4 {
+  font-family: "Lato", serif;
+  font-size: 20px !important;
+  color: #000;
+}

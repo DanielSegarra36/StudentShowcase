@@ -1,0 +1,649 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+body {
+  background-image: linear-gradient(to top, rgb(201, 109, 243) 0%, rgb(201, 109, 243) 100%);
+  color:            #000000;
+  width:            70%;
+  margin:           30px auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  font-family: 'Press Start 2P', cursive;
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+ul {
+  background:  #000000;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+  display: flex;
+  text-align: left;
+}
+
+ul:hover {
+  background:  #000000;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+  display: flex;
+  text-align: left;
+}
+
+li {
+	color:  #e08aff;
+  background: #000000;
+	display: inline-block;
+	float: left;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+ color: inherit;
+}
+
+li:hover {
+  color:  #000000;
+	background: #e08aff;
+	cursor: pointer;
+}
+
+li a:hover {
+  color:  #000000;
+}
+
+ul li ul {
+	background: #f67aff;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+	clear: both;
+  width: 100%;
+}
+
+       h1 {
+            font-family: 'Press Start 2P', cursive;
+            border: 9px solid #000000;
+            padding: 8px;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 1.6em;
+            letter-spacing: .1px;
+            font-size: 60px;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+.typewriter p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  text-align: center;
+  border-right: 8px solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  line-height: 1.6em;
+  letter-spacing: 2px; /* Adjust as needed */
+  animation-delay: 1s;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  animation: 
+  typing 2s steps(35, end),
+  blink-caret 1s step-end infinite;
+  width:100%;
+}
+
+.css-typing p {
+  border-right: .15em solid black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 35px;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.css-typing p:nth-child(1) {
+  width: 24em;
+  opacity: 0;
+  -webkit-animation: type 3.5s steps(35, end), blink .5s step-end infinite alternate;
+  animation: type3 3.5s steps(35, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-60%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+      h2 {
+            font-family: 'Press Start 2P', cursive;
+            border: 8px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 28px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+      h3 {
+            font-family: 'Press Start 2P', cursive;
+            border: 8px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 28px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-60%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+  @keyframes tools-slide {
+    from {
+      transform: translateX(-110%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+      img {
+      border-radius: 25px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 21px;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+      button {
+        background:     #000000;
+        border:         none;
+        font-size:      42px;
+        font-family: 'Roboto Mono', monospace;
+        border-radius:  30px;
+        text-transform: uppercase;
+        color:          #ffb8f5;
+        display:        block;
+        padding:        10px 20px;
+        transition:     opacity 50ms ease;
+        cursor:         pointer;
+        opacity:        1;
+        box-shadow:     0 1px 20px rgba(0,0,0,0.5);
+        margin:         30px auto;
+      }
+
+      a:hover {
+        color: #000000;
+      }
+
+      a[href^="https://www.changefoodforgood.org/good-jobs"] {
+        cursor: url("https://downloads.totallyfreecursors.com/cursor_files/leaf.cur"), url("https://downloads.totallyfreecursors.com/thumbnails/leaf.gif"), auto;
+}
+
+      a[href^="https://www.changefoodforgood.org/program-registration"] {
+        cursor: url("https://downloads.totallyfreecursors.com/cursor_files/leaf.cur"), url("https://downloads.totallyfreecursors.com/thumbnails/leaf.gif"), auto;
+}
+
+   body {
+            background-color: rgb(0, 0, 0);
+        }
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 8px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+
+        /* 
+color code starts here
+ */
+
+        body {
+            animation: colorchange 9s;
+            /* animation-name followed by duration in seconds*/
+            /* you could also use milliseconds (ms) or something like 2.5s */
+            -webkit-animation: colorchange 10s;
+            /* Chrome and Safari */
+        }
+
+        @keyframes colorchange {
+            0% {
+                background: rgb(247, 118, 249);
+            }
+
+            25% {
+                background: #f172f3;
+            }
+
+            50% {
+                background: #d971fe;
+            }
+
+            75% {
+                background: #d666ff;
+            }
+
+            100% {
+                background:  rgb(201, 109, 243)
+            }
+        }
+
+        @-webkit-keyframes colorchange
+
+        /* Safari and Chrome - necessary duplicate */
+            {
+            0% {
+                background: rgb(247, 118, 249);
+            }
+
+            25% {
+                background: #f172f3;
+            }
+
+            50% {
+                background: #d971fe;
+            }
+
+            75% {
+                background: #d666ff;
+            }
+
+            100% {
+                background:  rgb(201, 109, 243)
+            }
+        }
+
+/* header animation*/
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-60%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+  @keyframes tools-slide {
+    from {
+      transform: translateX(-110%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+@media screen and (max-width: 600px) {
+       body {
+       background-image: linear-gradient(to top, #e08aff 0%, #e08aff 100%);
+       color:            #000000;
+       width:            85%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+  
+        p {
+        line-height: 1.5;
+        width:            85%;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 5px }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+
+         h1 {
+            font-family: 'Press Start 2P', cursive;
+            border: 9px solid #000000;
+            padding: 7px;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 1.6em;
+            letter-spacing: .1px;
+            font-size: 30px;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+        h2 {
+            font-family: 'Press Start 2P', cursive;
+            border: 6px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+      h3 {
+            font-family: 'Press Start 2P', cursive;
+            border: 6px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+}
+
+@media screen and (max-width: 480px) {
+
+       body {
+       background-image: linear-gradient(to top,  rgb(184, 92, 245) 0%,  rgb(184, 92, 245) 100%);
+       color:            #000000;
+       width:            100%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+
+          /* 
+color code starts here
+ */
+
+        body {
+            animation: colorchange 9s;
+            /* animation-name followed by duration in seconds*/
+            /* you could also use milliseconds (ms) or something like 2.5s */
+            -webkit-animation: colorchange 10s;
+            /* Chrome and Safari */
+        }
+
+        @keyframes colorchange {
+            0% {
+                background: rgb(247, 118, 249);
+            }
+
+            25% {
+                background: #f172f3;
+            }
+
+            50% {
+                background: #d971fe;
+            }
+
+            75% {
+                background: #d666ff;
+            }
+
+            100% {
+                background:  rgb(201, 109, 243)
+            }
+        }
+
+        @-webkit-keyframes colorchange
+
+        /* Safari and Chrome - necessary duplicate */
+            {
+            0% {
+                background: rgb(247, 118, 249);
+            }
+
+            25% {
+                background: #f172f3;
+            }
+
+            50% {
+                background: #d971fe;
+            }
+
+            75% {
+                background: #d666ff;
+            }
+
+            100% {
+                background:  rgb(201, 109, 243)
+            }
+        }
+
+/* header animation*/
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-60%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+  @keyframes tools-slide {
+    from {
+      transform: translateX(-110%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+
+         h1 {
+            font-family: 'Press Start 2P', cursive;
+            border: 9px solid #000000;
+            padding: 7px;
+            border-radius: 25px;
+            text-align: center;
+            line-height: 1.6em;
+            margin:           30px;
+            letter-spacing: .1px;
+            font-size: 30px;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+        h2 {
+            font-family: 'Press Start 2P', cursive;
+            border: 6px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            margin:           30px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+      h3 {
+            font-family: 'Press Start 2P', cursive;
+            border: 6px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            line-height: 1.5;
+            margin:           30px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            animation-duration: 900ms;
+            animation-name: tools-slide ;
+            animation-iteration-count: once;
+      }
+
+      img {
+      border-radius: 25px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+      }
+
+          p {
+        line-height: 1.5;
+        margin:           30px;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+  
+      .css-typing p {
+            border-right: .15em solid black;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            padding: 0;
+            white-space: nowrap;
+            overflow: hidden;
+ }
+}

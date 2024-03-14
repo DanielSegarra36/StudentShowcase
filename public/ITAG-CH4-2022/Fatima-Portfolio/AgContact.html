@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="AgContact.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,200;1,500&display=swap" rel="stylesheet">
+
+  <script defer src="AgContact.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="Photos/rimi's farm.png" alt="" width="350" />
+      </div>
+      <nav>
+        <div class="pixel">
+          <a href="AgTechCohort.html">Home</a>
+        </div>
+          <div class="pixel">
+            <a href="blog.html">Blog</a>
+          </div>
+        <div class="pixel">
+          <a href="caseStudy.html">Case Study</a>
+        </div>
+
+        <div class="pixel">
+          <a href="AgContact.html">Contact</a>
+        </div>
+
+
+      </nav>
+			<div class="weather">
+				<div class="location">
+					<h2>New York, NY</h2>
+				</div>
+				<div class="weather-box">
+					<div class="weather-temp"></div>
+					<div class="weather-desc"></div>
+				</div>
+				<h3 class="feels-like">Feels like </h3>
+			</div>
+    </div>
+
+
+
+  </header>
+
+  <main class="letsTalk">
+
+  <div class="wrapper">
+    <form class="form">
+      <div class="pageTitle title">Let's Talk </div>
+      <div class="secondaryTitle title">Reach out if you any questions</div>
+      <input type="text" class="name formEntry" placeholder="Name" />
+      <input type="text" class="email formEntry" placeholder="Email"/>
+      <textarea class="message formEntry" placeholder="Message"></textarea>
+      <input type="checkbox" class="termsConditions" value="Term">
+      <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+      <button class="submit formEntry" onclick="thanks()">Submit</button>
+    </form>
+  </div>
+
+  </main>
+
+</html>

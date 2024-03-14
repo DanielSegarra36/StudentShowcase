@@ -1,0 +1,28 @@
+header, nav, nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  margin: 0px 10px;
+}
+
+nav {
+  justify-content: space-evenly;
+  margin-right: 1em;
+  flex-grow: 1;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-image {
+  background-color: ;
+  height: 341px;
+  width: 342px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
