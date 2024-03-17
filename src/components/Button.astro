@@ -9,9 +9,11 @@ const projectDirs = await import.meta.glob("../../public/**/**/index.html");
   target="_blank"
   rel="noopener noreferrer"
   title="Open a random project (new tab)"
-  href={Object.keys(projectDirs)[
-    Math.floor(Math.random() * Object.keys(projectDirs).length)
-  ].replace("public", "StudentShowcase")}
+  href={Object.keys(projectDirs)
+    [
+      Math.floor(Math.random() * Object.keys(projectDirs).length)
+    ].replace("public", "StudentShowcase")
+    .replace("index.html", "")}
   class="bg-cohortHeading hover:bg-buttonHover focus:heading appearance-none rounded-lg px-8 py-4 text-base font-semibold text-[#237293] shadow-md [text-shadow:_0_2px_30px_rgb(255_255_255)] hover:text-white hover:[text-shadow:_0_2px_30px_black] focus:outline-none focus:ring-2 focus:ring-opacity-75"
 >
   <slot />
