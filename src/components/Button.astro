@@ -21,9 +21,28 @@ const projectDirs = await import.meta.glob("../../public/**/**/index.html");
 
 <script>
   import confetti from "canvas-confetti";
-  const button = document.body.querySelectorAll("a");
+  const buttons = document.body.querySelectorAll("a");
 
-  if (button) {
-    button.forEach((x) => x.addEventListener("click", () => confetti()));
+  const projectDirs = await import.meta.glob("../../public/**/**/index.html");
+
+  if (buttons) {
+    buttons.forEach((x) => {
+      x.addEventListener("click", () => {
+        event.preventDefault(); // Prevent the default behavior of the anchor tag
+        confetti();
+
+        // open in new tab
+        window.open(x.href, "_blank");
+
+        // random file path from projectDirs
+        const randomProject = Object.keys(projectDirs)
+          [
+            Math.floor(Math.random() * Object.keys(projectDirs).length)
+          ].replace("public", "StudentShowcase")
+          .replace("index.html", "");
+
+        x.href = randomProject;
+      });
+    });
   }
 </script>
