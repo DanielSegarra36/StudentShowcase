@@ -6,6 +6,7 @@ const projectDirs = await import.meta.glob("../../public/**/**/index.html");
 
 <!-- random file path from projectDirs -->
 <a
+  id="confettiButton"
   target="_blank"
   rel="noopener noreferrer"
   title="Open a random project (new tab)"
@@ -21,7 +22,7 @@ const projectDirs = await import.meta.glob("../../public/**/**/index.html");
 
 <script>
   import confetti from "canvas-confetti";
-  const buttons = document.body.querySelectorAll("a");
+  const buttons = document.body.querySelectorAll("#confettiButton");
 
   const projectDirs = await import.meta.glob("../../public/**/**/index.html");
 
