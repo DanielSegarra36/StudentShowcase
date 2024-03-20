@@ -14,17 +14,20 @@ const projectDirs = await import.meta.glob(
     <li><a href="/ITAG-CH5-2023/David-Case-Study">David</a></li>
     <li><a href="/ITAG-CH5-2023/Ohanie-Final-Project">Ohanie</a></li>
   </ul> -->
+  <div class="my-0 mx-auto w-fit">
+  <label for="cohort" class="p-2">Select Cohort:</label>
   <select class="p-2" name="cohort" id="cohort">
     <option value="ITAG-CH1-2020">ITAG-CH1-2020</option>
-    <option value="ITAG-CH2-2020">ITAG-CH2-2020</option>
+    <option value="ITAG-CH2-2020" selected="selected">ITAG-CH2-2020</option>
     <option value="ITAG-CH4-2022">ITAG-CH4-2022</option>
     <option value="ITAG-CH5-2023">ITAG-CH5-2023</option>
     <option value="TKH-DDC-2023">TKH-DDC-2023</option>
   </select>
-  <ul style="display: flex; justify-content: center; overflow: scroll; gap: 4rem; padding: 1rem 2rem;">
+  </div>
+  <ul style="display: flex; overflow: scroll; gap: 4rem; padding: 1rem 2rem;">
     {
       Object.keys(projectDirs).map((dir) => (
-        <li class="grow shrink-0 basis-auto;">
+        <li class="grow shrink-0 basis-auto flex items-center justify-center my-2 mx-4">
           <a class="student-project hover:italic hover:text-[rgb(177_133_0)]" href="#renderWindow" data-url={dir}>
             {
               /*
